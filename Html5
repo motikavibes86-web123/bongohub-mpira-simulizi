@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinella AI | CEO Salehe Shaban</title>
+    <style>
+        /* Rangi za Usalama na Teknolojia (Cybersecurity Theme) */
+        :root {
+            --primary: #64ffda; /* Bluu inayong'aa */
+            --bg: #0a192f;      /* Navy Blue ya giza */
+            --card: #112240;    /* Bluu ya kati */
+            --text: #ccd6f6;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Courier New', monospace; /* Fonti inayofanana na kodi */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+
+        .ceo-title {
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .project-card {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .whatsapp-btn {
+            background: #25D366; /* Rangi ya WhatsApp */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            border-top: 1px solid #233554;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p class="ceo-title">Chief Executive Officer</p>
+        <h1>SENTINELLA AI</h1>
+        <p>Advanced Cybersecurity Solutions for Banks & Institutions</p>
+        <p>Mtaalamu: <strong>Salehe Shaban</strong></p>
+        <a href="https://wa.me/255750020767" class="whatsapp-btn">Chat na CEO kwenye WhatsApp</a>
+    </header>
+
+    <section>
+        <h2 style="color: var(--primary);">Miradi ya Kulinda Mabilioni</h2>
+        
+        <div class="project-card">
+            <h3>🛡️ Bank Sentinel System</h3>
+            <p>Mfumo wa Python unaotumia AI kugundua majaribio ya kughushi na wizi wa password (Brute Force Protection).</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🤖 BoraAI Assistant</h3>
+            <p>Msaidizi wa kidijitali anayeandika (Typing Effect) na kutoa ushauri wa ulinzi wa data kwa sekunde.</p>
+        </div>
+    </section>
+
+    <div class="footer">
+        &copy; 2026 Sentinella AI. All Rights Reserved. | CEO Salehe Shaban
+    </div>
+
+</body>
+</html>
